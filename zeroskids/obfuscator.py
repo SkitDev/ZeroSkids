@@ -57,7 +57,7 @@ def obfuscate(code: str, preset: str = "skidproof") -> str:
 # === ULTRA OBFUSCATION ===
 def ultra_obfuscate(code: str) -> str:
     result = code
-    for i in range(25):
+    for i in range(10):
         if i % 5 == 0:
             result = mangle_vars(result)
         if i % 4 == 0:
