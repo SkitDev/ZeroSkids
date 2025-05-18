@@ -57,7 +57,7 @@ def obfuscate(code: str, preset: str = "skidproof") -> str:
 # === ULTRA OBFUSCATION ===
 def ultra_obfuscate(code: str) -> str:
     result = code
-    for i in range(100):
+    for i in range(25):
         if i % 5 == 0:
             result = mangle_vars(result)
         if i % 4 == 0:
@@ -67,5 +67,5 @@ def ultra_obfuscate(code: str) -> str:
         else:
             result = hex_layer(result)
     final = base64_layer(result)
-    watermark = "# ultra-obfuscated with ZeroSkids v2 💀 100-layer death sauce\n"
+    watermark = "# ultra-obfuscated with ZeroSkids v2 💀 25-layer death sauce\n"
     return watermark + final
