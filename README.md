@@ -44,23 +44,6 @@ twine upload dist/*
 
 ---
 
-## 🔄 Versioning / Updating PyPI
-
-1. Edit your local `README.md`
-2. Bump version in `setup.py` (PyPI doesn't allow overwriting)
-
-   ```py
-   version="1.0.1"
-   ```
-3. Rebuild & reupload
-
-   ```bash
-   python -m build
-   twine upload dist/*
-   ```
-
----
-
 ## 🧙‍♀️ Made by
 
 * 👑 **Skidzz** – certified code criminal 💀
