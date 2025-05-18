@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tests/__init__.py
+tests/test_core.py
+zeroskids/__init__.py
+zeroskids/cli.py
+zeroskids/core.py
+zeroskids/obfuscator.py
+zeroskids/utils.py
+zeroskids.egg-info/PKG-INFO
+zeroskids.egg-info/SOURCES.txt
+zeroskids.egg-info/dependency_links.txt
+zeroskids.egg-info/top_level.txt

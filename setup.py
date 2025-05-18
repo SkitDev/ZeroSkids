@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 setup(
     name="zeroskids",
-    version="1.2",
+    version="1.5",
     author="SkitDev",
     description="Truly skid-proof Python obfuscator",
     long_description=long_description,
