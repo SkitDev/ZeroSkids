@@ -54,8 +54,6 @@ no one’s reading that. not even god.
 
 - [ ] Add C/C++ obfuscation  
 - [ ] Discord bot version of ZeroSkids  
-- [ ] Add cursed animation when obfuscation starts  
-- [ ] \`--troll\` mode: auto inserts \`console.log("ur code is mid")\`  
 
 ---
 
