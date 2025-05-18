@@ -1,79 +1,57 @@
-
 # 💀 ZeroSkids
 
-> terminal-based chaos engine for code obfuscation 😭
+> pip-installable chaos engine for code obfuscation 😭
 
-**ZeroSkids** is a multi-language code obfuscator made for devs who hate readability and love drama. Built for terminal enjoyers who want flashy ASCII, cursed colors, and support for popular languages like:
-
-- 🐍 Python  
-- ⚡ JavaScript  
-- 🟦 TypeScript  
-
-no fluff. just pure, beautiful, spaghetti code.
-
----
-
-## ✨ Features
-
-- 🎨 Colorful terminal UI w/ built-in ASCII memes  
-- 🔀 Multi-language obfuscation (JS, TS, Python)  
-- 🧪 Comes with sample files to instantly test  
-- 💀 Converts code into unreadable nightmare fuel  
-- ⚙️ Easy CLI interface, plug into CI/CD for max trolling  
-
----
-
-## 🧠 Usage
+## 📦 Install
 
 ```bash
-python3 src/main.py <file-to-obfuscate>
+pip install zeroskids
 ```
 
-✅ works with \`.py\`, \`.js\`, \`.ts\`  
-❌ does not work with clean code enthusiasts  
+## 🔧 Usage
 
----
-
-## 📁 Example
-
-### Input (`example.py`)
 ```python
-print("hello world")
+from zeroskids import obfuscate
+
+original_code = "print('skidzz supremacy')"
+obfuscated = obfuscate(original_code)
+
+print(obfuscated)
 ```
 
-### Output
-```python
-exec('\x70\x72\x69\x6e\x74(\x22\x68\x65\x6c\x6c\x6f\x20\x77\x6f\x72\x6c\x64\x22)')
-```
-
-no one’s reading that. not even god.
+✅ works on `.py`, `.js`, `.ts`
+❌ does not work on readable code
 
 ---
 
-## 🔮 Future Plans
-
-- [ ] Add C/C++ obfuscation  
-- [ ] Discord bot version of ZeroSkids  
-
----
-
-## 🛠️ Dev Setup
+## 💠 Local Dev Setup
 
 ```bash
-git clone https://github.com/you/ZeroSkids.git
-cd ZeroSkids
-python3 src/main.py examples/example.py
+git clone https://github.com/SkitDev/ZeroSkidsPackage.git
+cd ZeroSkidsPackage
+python3 -m build
+twine upload dist/*
 ```
+
+---
+
+## 🔄 Versioning / Updating PyPI
+
+1. Edit your local `README.md`
+2. Bump version in `setup.py` (PyPI doesn't allow overwriting)
+
+   ```py
+   version="1.0.1"
+   ```
+3. Rebuild & reupload
+
+   ```bash
+   python -m build
+   twine upload dist/*
+   ```
 
 ---
 
 ## 🧙‍♀️ Made by
 
-- 🧠 **Skidzz** – chaos queen, built this for the culture  
-- 🤖 **Ryn** – probably not AI. definitely cursed.
-
----
-
-## 🪦 License
-
-MIT, but if you use this in production i’m legally allowed to laugh at you 💀
+* 👑 **Skidzz** – certified code criminal 💀
